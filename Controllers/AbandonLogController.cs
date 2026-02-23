@@ -29,6 +29,7 @@ namespace AbandonLogger.Controllers
                 var path = Server.MapPath("~/App_Data/abandon.log");
                 System.IO.File.AppendAllText(path, logText);
 				//test01
+				//test02
 
                 return new HttpStatusCodeResult(200);
             }
